@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<link rel="shortcut icon" href="../imagenesP/ititulo.ico">
+		<title>Inscripci&oacute;n</title>
+	</head>
+	
+	<body bgcolor="#FBD697" vlink="#DF013A">	
+		
+		<hr noshade width="190">
+		<p align="center"><marquee BGCOLOR="blue" behavior="slide" width="168" direction="down"><font color="white" face="impact" size="6">&iexcl;INSCRIBETE!</b></font></marquee></p>
+		<hr noshade width="190"><br><br>		
+		
+		<form action="http://mmm.etsisi.upm.es/html/formulario.php" method="get" name="formularioPrueba"/>		
+			<fieldset>			
+				<legend><font face="calibri"><b>Datos Personales</b></legend>
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" accesskey='n'><br><br>
+					
+					<label for="apellido1">Primer apellido:</label>
+					<input type="text" id="apellido1"><br><br>
+					
+					<label for="apellido1">Segundo apellido:</label>
+					<input type="text" id="apellido2"><br><br>
+					
+					<label for="edad">Edad:</label>
+					<input type="text" id="edad" disabled><br><br>
+					
+					<label for="dni">DNI:</label>
+					<input type="text" id="dni"><br><br>
+					
+					<label for="tel">Tel&eacute;fono de contacto:</label>
+					<input type="text" id="tel"><br><br>
+					
+					<label for="correo">Correo:</label>
+					<input type="text" id="correo" readonly><br><br>
+					
+					<label for="sexo">Indique su sexo:</label>
+					<input type="radio" name="sexo" value="hombre" checked>hombre
+					<input type="radio" name="sexo" value="mujer">mujer<br><br>
+					
+					<label for="foto">Adjunte una foto tama&ntilde;o carnet: &nbsp;</label>
+					<input type="file" name="foto" accept="image/*"><br><br>
+					
+					<label for="pass">PIN que usar&aacute; para acceder a las instalaciones:</label>
+					<input type="password" id="pass"><br><br>
+
+					<label for="pass2">Confirme PIN que usar&aacute; para acceder a las instalaciones:</label>
+					<input type="password" id="pass2">					
+			</fieldset>
+			<br>
+			
+			<fieldset>			
+				<legend><b>Otros datos</b></legend>			
+					<label for="UPM">Marque esta casilla si es alumno/profesor/PAS de la ETSISI:</label>
+					<input type="checkbox" name="Miembro UPM" value="si">
+					<br><br>
+			
+					<label for="deportes">Indique los deportes & otros que practica:</label><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<select name="deportes" multiple="multiple" size="5">
+						<optgroup label="Con Bal&oacute;n">
+							<option value="futbol">F&uacute;tbol</option>
+							<option value="basket">Baloncesto</option>
+							<option value="Voleibol">Voleibol</option>
+						</optgroup>
+						<optgroup label="Con pelota">
+							<option value="Padel">P&aacute;del</option>
+							<option value="Tenis">Tenis</option>
+						</optgroup>
+						<optgroup label="Otros">
+							<option value="Natacion">Nataci&oacute;n</option>
+							<option value="Musculatura">Musculatura</option>
+						</optgroup>
+					</select><br><br>			
+			
+				<textarea rows="7" cols="50" onclick="this.value=''">Introduzca otros datos de inter&eacute;s que desea hacer constar...</textarea>		
+			</fieldset><br><br>			
+			
+			
+			<table align="center">
+				<tr>
+					<td align="left">						
+						<input type="submit" name="aceptar" value="Enviar">
+					</td>
+					<td align="left">	
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="reset" name="anular" value="Borrar todos los campos">
+					</td>
+				</tr>
+			</table>
+			
+			</font>			
+		</form>
+		
+		<br>
+		
+		<p align="right">
+			<a href="../Indice.html"><img src="../imagenesP/flechaA.png"></a>		
+		</p>
+	</body>
+</html>
